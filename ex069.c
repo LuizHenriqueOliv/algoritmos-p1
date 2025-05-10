@@ -8,30 +8,30 @@ void main()
 
     if (ponto_x > 0 && ponto_y > 0)
     {
-        printf("1o quadrante");
+        printf("1 quadrante");
     }
     else if (ponto_x < 0 && ponto_y > 0)
     {
-        printf("2o quadrante");
+        printf("1 quadrante");
     }
     else if (ponto_x < 0 && ponto_y < 0)
     {
-        printf("3o quadrante");
+        printf("1 quadrante");
     }
     else if (ponto_x > 0 && ponto_y < 0)
     {
-        printf("4o quadrante");
+        printf("1 quadrante");
     }
     else if (ponto_x != 0 && ponto_y == 0)
     {
-        printf("Esta sobre o eixo X");
+        printf("2 quadrantes");
     }
     else if (ponto_x == 0 && ponto_y != 0)
     {
-        printf("Esta sobre o eixo Y");
+        printf("2 quadrantes");
     }
     else
     {
-        printf("Esta sobre a origem");
+        printf("4 quadrantes");
     }
 }
