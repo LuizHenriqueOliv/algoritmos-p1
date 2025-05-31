@@ -1,66 +1,56 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
-    int number;
+    int numero;
     printf("Informe um numero entre 1 e 999: ");
-    scanf("%d", &number);
+    scanf("%d", &numero);
 
-    // calcular quantas letras de cada algarismo vão ser necessárias
-    int qtd_D = number / 500;
-    int qtd_C = (number % 500) / 100;
-    int qtd_L = ((number % 500) % 100) / 50;
-    int qtd_X = (((number % 500) % 100) % 50) / 10;
-    int qtd_V = ((((number % 500) % 100) % 50) % 10) / 5;
-    int qtd_I = (((((number % 500) % 100) % 50) % 10) % 5);
+    int centena = numero / 100;
+    int dezena = (numero % 100) / 10;
+    int unidade = numero % 10;
 
-    // casos que envolvem a subtração
-    switch (number)
+    // centenas
+    switch (centena)
     {
-        case 4: printf("IV"); return;
-        case 9: printf("IX"); return;
-        case 40: printf("XL"); return;
-        case 90: printf("XC"); return;
-        case 400: printf("CD"); return;
-        case 900: printf("CM"); return;
+        case 1: printf("C"); break;
+        case 2: printf("CC"); break;
+        case 3: printf("CCC"); break;
+        case 4: printf("CD"); break;
+        case 5: printf("D"); break;
+        case 6: printf("DC"); break;
+        case 7: printf("DCC"); break;
+        case 8: printf("DCCC"); break;
+        case 9: printf("CM"); break;
     }
 
+    // dezenas
+    switch (dezena)
+    {
+        case 1: printf("X"); break;
+        case 2: printf("XX"); break;
+        case 3: printf("XXX"); break;
+        case 4: printf("XL"); break;
+        case 5: printf("L"); break;
+        case 6: printf("LX"); break;
+        case 7: printf("LXX"); break;
+        case 8: printf("LXXX"); break;
+        case 9: printf("XC"); break;
+    }
 
-    // printar a quantidade de letras de acordo com a quantidade necessária na ordem: do Maior para o menor.
-    switch (qtd_D)
+    // unidades
+    switch (unidade)
     {
-        case 3: printf("D");
-        case 2: printf("D");
-        case 1: printf("D");
+        case 1: printf("I"); break;
+        case 2: printf("II"); break;
+        case 3: printf("III"); break;
+        case 4: printf("IV"); break;
+        case 5: printf("V"); break;
+        case 6: printf("VI"); break;
+        case 7: printf("VII"); break;
+        case 8: printf("VIII"); break;
+        case 9: printf("IX"); break;
     }
-    switch (qtd_C)
-    {
-        case 3: printf("C");
-        case 2: printf("C");
-        case 1: printf("C");
-    }
-    switch (qtd_L)
-    {
-        case 3: printf("L");
-        case 2: printf("L");
-        case 1: printf("L");
-    }
-    switch (qtd_X)
-    {
-        case 3: printf("X");
-        case 2: printf("X");
-        case 1: printf("X");
-    }
-    switch (qtd_V)
-    {
-        case 3: printf("V");
-        case 2: printf("V");
-        case 1: printf("V");
-    }
-    switch (qtd_I)
-    {
-        case 3: printf("I");
-        case 2: printf("I");
-        case 1: printf("I");
-    }
+    
+    return 0;
 }

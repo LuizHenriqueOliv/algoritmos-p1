@@ -5,7 +5,7 @@ int main()
 {
     char texto[120];
     printf("Informe um texto: ");
-    fgets(texto, 120, stdin);
+    gets(texto);
 
     int tamanho_texto = strlen(texto);
 

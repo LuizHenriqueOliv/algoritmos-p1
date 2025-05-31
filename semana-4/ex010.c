@@ -4,7 +4,7 @@ int main()
 {
     char DNA[11];
     printf("Informe a sequencia de cromossomos: ");
-    scanf("%s", DNA);
+    scanf("%s", DNA); 
 
     for (int i = 0; i <= 7; i++)
     {
