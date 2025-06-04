@@ -8,3 +8,22 @@
 // precisão desejada. Quando isso acontece, o último xk gerado corresponde ao valor da 
 // raiz. Para calcular a raiz, considere x0 = 1 e a precisão de 0,0001.
 
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int indice, radicando;
+    printf("Informe dois inteiros N e M: ");
+    scanf("%d%d", &indice, &radicando);
+
+    float y = 1, x, temp;
+    do
+    {
+        temp = y;
+        x = y - ((pow(y, indice) - radicando) / (pow(indice * y, indice - 1)));
+        y = x;
+    } while (fabs(x - temp) >= 0.0001);
+
+    printf("A raiz de %d com indice %d eh %.2f", radicando, indice, x);
+}
