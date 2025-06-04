@@ -1,3 +1,5 @@
+// Escreva  um  programa  que  leia  os  valores  de  dois  ângulos  internos  de  um  triângulo  e 
+// calcule o valor do terceiro ângulo.
 #include <stdio.h>
 
 void main()

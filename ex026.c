@@ -1,3 +1,6 @@
+// Escreva um programa que leia o peso e a altura dos atletas das quatro duplas que vão 
+// participar  de  um  torneio  de  vôlei  de  praia  e  calcule  o  peso  e  a  altura  média  de  cada 
+// dupla e o peso e a altura média de todos os jogadores do torneio. 
 #include <stdio.h>
 
 int main()

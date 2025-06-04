@@ -1,3 +1,7 @@
+// Escreva um programa que leia o nome e a quantidade de votos recebidos por cada um 
+// dos três candidatos a prefeito de uma cidade e calcule o percentual de votos recebidos 
+// por  cada  candidato.  Para  resolver  esse  programa,  considere  que  não  houve  votos 
+// brancos e nem nulos. 
 #include <stdio.h>
 
 void main()

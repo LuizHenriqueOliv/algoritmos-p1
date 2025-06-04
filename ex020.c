@@ -1,3 +1,6 @@
+// Em  uma  determinada  cidade,  cada  m2  de  um  terreno  está  avaliado  em  R$  300,00. 
+// Escreva  um  programa  que  leia  o  comprimento  e  a  largura  de  um  terreno  localizado 
+// nesta cidade e calcule o seu valor de mercado.
 #include <stdio.h>
 
 void main()

@@ -1,3 +1,6 @@
+// Escreva  um  programa  que  leia  o  comprimento  e  a  largura  de  uma  cisterna  e  a 
+// quantidade  de  litros que o usuário  deseja armazenar na mesma e  determine  quantos 
+// metros ele deve encher a cisterna para obter a quantidade de litros desejada
 #include <stdio.h>
 
 void main()

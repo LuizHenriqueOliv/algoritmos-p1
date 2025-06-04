@@ -1,3 +1,6 @@
+// Escreva um programa que leia a área de uma casa e o valor cobrado por um arquiteto 
+// por  cada  metro  quadrado  de  um  projeto  arquitetônico  e  calcule  o  custo  final  do 
+// projeto. 
 #include <stdio.h>
 
 void main(void)

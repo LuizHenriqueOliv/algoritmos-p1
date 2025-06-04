@@ -1,3 +1,5 @@
+// Escreva  um  programa  que  leia  três  números  e  seus  respectivos  pesos  e  calcule  a  sua 
+// média ponderada.
 #include <stdio.h>
 
 void main()
