@@ -1,5 +1,3 @@
-// Escreva um programa que leia o termo inicial e a razão de uma progressão aritmética e 
-// imprima os 5 primeiros termos desta progressão.
 #include <stdio.h>
 
 void main()

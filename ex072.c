@@ -17,7 +17,14 @@ void main()
         tempo_total_arredondado += 1;
     }
 
-    int anos = tempo_total_arredondado / 12;
-    int meses = tempo_total_arredondado % 12;
-    printf("Vai levar %d anos e %d meses", anos, meses); 
+    // if (tempo_total_arredondado <= 12)
+    // {
+    //     printf("Vai levar %d meses", tempo_total_arredondado);
+    // }
+    // else 
+    // {
+        int anos = tempo_total_arredondado / 12;
+        int meses = tempo_total_arredondado % 12;
+        printf("Vai levar %d anos e %d meses", anos, meses);
+    // 
 }

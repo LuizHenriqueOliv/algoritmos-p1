@@ -1,4 +1,3 @@
-// Escreva um programa que leia uma palavra e calcule o seu comprimento.
 #include <stdio.h>
 #include <string.h>
 

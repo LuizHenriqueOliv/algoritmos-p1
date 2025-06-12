@@ -1,5 +1,3 @@
-// Escreva um programa que leia um número positivo entre 1 e 9999 e calcule o valor da 
-// unidade de milhar, da centena, da dezena e da unidade.
 #include <stdio.h>
 
 void main()

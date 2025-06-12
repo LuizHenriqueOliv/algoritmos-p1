@@ -1,5 +1,3 @@
-// Escreva um programa que  leia o valor do seno de  um ângulo e  calcule o valor do seu 
-// cosseno.
 #include <stdio.h>
 #include <math.h>
 

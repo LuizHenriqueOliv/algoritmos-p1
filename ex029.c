@@ -1,6 +1,3 @@
-// Escreva um programa que leia o número total de questões existentes em uma prova e 
-// o  número  de  questões  que  um  candidato  acertou  e  determine  o  seu  percentual  de 
-// acertos e o seu percentual de erros.
 #include <stdio.h>
 #include <locale.h>
 

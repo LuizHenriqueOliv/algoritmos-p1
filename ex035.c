@@ -1,6 +1,3 @@
-// Escreva  um  programa  que  leia  o  valor  de  uma  distância  em  metros  e  calcule  o  seu 
-// valor correspondente em quilômetros, hectômetros, decâmetros, centímetros, 
-// decímetros e milímetros.
 #include <stdio.h>
 
 void main()
